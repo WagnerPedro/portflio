@@ -82,3 +82,13 @@ header {
     text-decoration: none;
     color: var(--white);
 }
+
+.menu-icon {
+    display: none;
+}
+
+#menu-icon-img {
+    width: 20px;
+    cursor: pointer;
+    
+}
