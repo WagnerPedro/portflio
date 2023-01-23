@@ -32,12 +32,15 @@ body {
 header {
     position: fixed;
     top: 0;
+    padding-top: 2%;
+    width: 100vw;
 }
 
 /* LOGO */
 
 .logo {
     margin-left: 4%;
+    float: left;
 }
 
 .logo a img{
@@ -48,6 +51,7 @@ header {
 
 .menu {
     margin-right: 9%;
+    float: right;
     /*display: flex;
     justify-content: space-between;*/
 }
@@ -98,7 +102,7 @@ header {
 
 main {
     position: relative;
-    margin-top: 2%;
+    margin-top: 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
