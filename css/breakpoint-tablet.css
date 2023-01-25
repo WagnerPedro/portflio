@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 912px) {
+    *:not(h1, h2) {
+        font-size: 1em;
+    }
+    .menu ul {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    header {
+        position: fixed;
+        background-color: #03A696;
+        padding: 1.8% 0;
+        width: 100vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section.left {
+        width: 100%;
+        margin-top: 15%;
+        padding: 7%;
+    }
+
+    main .right {
+        width: 100%;
+
+    }
+
+    main .right img {
+        width: 100%;
+    }
+}
