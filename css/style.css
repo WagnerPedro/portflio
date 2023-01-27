@@ -191,7 +191,7 @@ main .right {
 }
 
 main .right img {
-    width: 100%;
+    /* width: 100%; */
     padding-right: 5%;
 }
 

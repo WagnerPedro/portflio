@@ -3,6 +3,7 @@
     *:not(h1, h2) {
         font-size: 1em;
     }
+
     .menu ul {
         display: none;
     }
@@ -39,5 +40,78 @@
 
     main .right img {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    
+    main {
+        /* padding: 5%; */
+    }
+
+    .right {
+        padding: 0;
+        margin: 0;
+    }
+
+    .right img {
+        width: 550px;
+    }
+}
+
+/*912px*/
+@media screen and (max-width: 912px) {
+    main {
+        margin-top: 8%;
+    }
+
+    p.no-typeEffetct {
+        font-size: 1em;
+    }
+
+    .left article h1 {
+        font-size: 2em;
+    }
+
+    .left article .typeEffetct {
+        font-size: .7em;
+    }
+
+    main .right img {
+        width: 550px;
+        padding-right: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    main section.left {
+        width: 100%;
+        padding: 7%;
+        margin-top: 0;
+    }
+}
+
+/*528px*/
+@media screen and (max-width: 528px) {
+    main {
+        margin-top: 0;
+    }
+
+    main section.left {
+        width: 100%;
+        margin-top: 8%;
+        padding: 7%;
+    }
+
+    p.no-typeEffetct {
+        font-size: 1em;
+    }
+
+    .left article h1 {
+        font-size: 2em;
+    }
+
+    .left article .typeEffetct {
+        font-size: .7em;
     }
 }
