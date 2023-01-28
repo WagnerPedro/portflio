@@ -96,7 +96,7 @@
     main {
         margin-top: 0;
     }
-
+    
     main section.left {
         width: 100%;
         margin-top: 8%;
@@ -110,8 +110,28 @@
     .left article h1 {
         font-size: 2em;
     }
-
+    
     .left article .typeEffetct {
         font-size: .7em;
+    }
+}
+
+/* menos de 795 */
+@media screen and(max-width: 795px) {
+    main {
+        margin-top: 5%;
+    }
+
+    section .right {
+        width: 450px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.left {
+        margin-top: 78px;
+        text-align: center;
     }
 }
